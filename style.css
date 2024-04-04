@@ -1,0 +1,103 @@
+*{
+      margin: 0;
+      padding: 0;
+  }
+body{
+      background-image: url(background-img1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+.container{
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 150px;
+} 
+.tabs{
+      display: table-cell;
+      width: 30%;
+      background-color: rgb(207, 228, 207);
+      padding: 10px;
+      float: left;
+      text-align: center;
+      border: 1px solid ;
+      font-size: 20px;
+      color: black;
+      margin-top: -10%;
+      margin-left: 25px;
+     border-radius: 30px;
+}
+input:focus{
+      outline: 0;
+}
+.tabs:hover{
+      cursor: pointer;
+      color: blue;
+      background-color: whitesmoke;
+}
+#scont{
+      width: 100%;
+      height: 315px;
+      background-color: rgba(90, 69, 55, 0.4);
+      border: 2px solid #ffffff;
+  
+  
+}
+input{
+      display: block;
+      width: 250px;
+      margin: 10px 13px;
+      padding: 10px;
+      font-size: 20px;
+      color: black;
+      font-size: 15px;
+      border-radius: 3px;
+      border: 1px solid whitesmoke;
+      /* outline: 2px solid #ffffff; */
+}
+  
+input[type="submit"]
+{
+      width: 273px;
+     
+     
+}
+.fpp{
+      color: yellow;
+      margin-left: 15px;
+      text-decoration: underline;
+      cursor: pointer;
+     
+   
+}
+.signin{
+      color: white;
+      font-size: 30px;
+      margin-top: 20px;
+      margin-left: 100px;
+} 
+  
+.forgot-pass{
+      color: white;
+      font-size: 30px;
+      margin-top: 20px;
+      margin-left: 40px;
+}
+  
+.comm{
+      position: absolute;
+      visibility: hidden;
+       
+}
+#login{
+      visibility: visible;
+  
+}
+.comm .register-hd{
+      color: white;
+      font-size: 30px;
+      margin-top:20px;
+      margin-left: 100px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+  
+}
